@@ -1,5 +1,7 @@
 # aw-python311-docker
 
+> In case anybody finds this an wonders why this is happening: As of writing this, the latest supported libicu is libicu72. Seems to be a dotnet dependency problem
+
 This repository contains a test case for a docx -> txt conversion using aspose-words for python in a docker container. The base image is `python:3.11`
 
 To run the test, execute the following commands:
